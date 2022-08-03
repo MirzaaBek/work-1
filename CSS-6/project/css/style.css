@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    bottom: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body {
+    margin-top: 50px;
+    margin-left: 35%;
+    padding: 30px;
+    font-size: 20px;
+    font-family: "Arial";
+    color: rgb(39, 61, 70);
+    line-height: 1.8;
+    text-align: left;
+
+}
+
+li {
+    padding-left: 25px;
+    background-image: url(../icons/li.svg);
+    background-repeat: no-repeat;
+    background-position: left 10px;
+}
+
+.list1 {
+    margin: 0 0 50px 0;
+}
+
+.list1 li:first-child {
+    text-decoration: line-through;
+}
+
+.list1 li:nth-child(2) {
+    font-weight: bold;
+}
+
+.list1 li:nth-child(3) {
+    font-style: italic;
+}
+
+.list1 li:last-child {
+    text-transform: uppercase;
+}
+
+.list2 {
+    margin: 0 0 50px 0;
+}
+
+.list2 li:hover {
+    color: #d55a5a;
+}
+
+.btn {
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    background-color: #80b7b3;
+}
+
+.btn:hover {
+    background-color: #3a5858;
+}
+
+.btn:active {
+    background-color: #818181;
+}
+
+.textinput {
+    margin-top: 30px;
+    padding: 15px;
+    display: block;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.textinput:focus {
+    box-shadow: 0px 0px 10px rgb(41, 120, 238);
+}
